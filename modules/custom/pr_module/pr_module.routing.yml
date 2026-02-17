@@ -1,9 +1,0 @@
-pr_module.events:
-  path: '/events'
-  defaults:
-    _controller: '\Drupal\pr_module\Controller\EventsController::events'
-    _title: 'Events'
-  options:
-    no_cache: TRUE
-  requirements:
-    _permission: 'access content'
